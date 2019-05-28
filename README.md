@@ -88,3 +88,4 @@ There's several ways this configuration could be improved.  Some that come to mi
 * Reboot host after the build to ensure updates are fully applied.
 * Adding either an ELB or EIP to provide a consistent address to connect to
 * Currently this config is AWS-specific; I'd like to add support for other tf provisioners, but the lack of logic/flow control in Terraform is not thrilling me.
+* Allow specifying architecture(s) to mirror (right now mirroring aarch64, armhf, armv7, ppc64le, s390x, x86, x86_64)
