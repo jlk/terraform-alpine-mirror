@@ -87,3 +87,4 @@ By default, the script runs with "reasonable" defaults. The following variables 
 There's several ways this configuration could be improved.  Some that come to mind, are...
 * Reboot host after the build to ensure updates are fully applied.
 * Adding either an ELB or EIP to provide a consistent address to connect to
+* Currently this config is AWS-specific; I'd like to add support for other tf provisioners, but the lack of logic/flow control in Terraform is not thrilling me.
